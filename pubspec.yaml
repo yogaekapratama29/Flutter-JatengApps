@@ -1,0 +1,50 @@
+name: project1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  animated_splash_screen: ^1.3.0
+  flutter:
+    sdk: flutter
+  material_design_icons_flutter: 7.0.7296
+  google_fonts: ^6.2.1
+  division: ^0.9.0
+  lottie: ^3.1.0
+  cupertino_icons: ^1.0.8
+  curved_navigation_bar: ^1.0.3
+  introduction_screen: ^3.1.14
+  like_button: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/logo.png
+  - assets/profil.jpg
+  - assets/back.jpg
+  - assets/on_1.jpg
+  - assets/on_2.jpg
+  - assets/on_3.jpg
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+        - asset: fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: fonts/Montserrat-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: fonts/Montserrat-Italic.ttf
+          style: italic
+
