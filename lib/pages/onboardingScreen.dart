@@ -40,7 +40,8 @@ class _OnboardingscreenState extends State<Onboardingscreen> {
       body: Stack(
         alignment: Alignment.bottomCenter,
         children: [
-          PageView(controller: _pageController,
+          PageView(
+            controller: _pageController,
             onPageChanged: (int page) {
               setState(() {
                 currentIndex = page;
